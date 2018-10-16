@@ -1,5 +1,5 @@
 ---
 - targets:
-  - cadvisor:8080
+  - cadvisor:8000
   labels:
     host: localhost

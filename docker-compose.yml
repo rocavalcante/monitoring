@@ -12,7 +12,7 @@ services:
       - /var/lib/docker/:/var/lib/docker:ro
       - /dev/disk/:/dev/disk:ro
     ports:
-      - 8080:8080
+      - 8000:8080
 
   prometheus:
     image: quay.io/prometheus/prometheus:v2.3.2
